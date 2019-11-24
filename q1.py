@@ -11,5 +11,7 @@ for num in nums:
     if (num%7 != 0) or (num%5 == 0):
 #        print('num = ', num, 'bool = ', (num%7 != 0) or (num%5 == 0))
         nums.remove(num)
-        
+#adding a line from vim to test pushing from cloned directory
+#
+       
 print (nums)
